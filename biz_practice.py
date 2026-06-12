@@ -47,5 +47,5 @@ st.bar_chart(chart_data) # 바 차트 출력
 import streamlit as st
 from PIL import Image
 
-img = Image.open("data/python_설명.jpeg")
+img = Image.open("data2/python_설명.jpeg")
 st.image(img, caption="python 설명")

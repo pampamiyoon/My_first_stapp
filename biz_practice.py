@@ -47,5 +47,5 @@ st.bar_chart(chart_data) # 바 차트 출력
 from PIL import Image #이미지 처리를 위한 PIL 라이브러리 임포트 (uv add Pillow)
 
 st.write('# 4. 이미지 표시하기') # 텍스트 출력
-img=Image.open('./data/python_설명.jpeg') # 이미지 파일 열기
+img=Image.open("./data/python_설명.jpeg") # 이미지 파일 열기
 st.image(img, width=600) # 이미지 출력
